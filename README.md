@@ -1,15 +1,4 @@
-Machine Learning CS 6375 Project
-\n On Deep Dark Light.
-
-
-The Folder has 3 files:
-accuracy_metrics.py - To calculate the PSNR and SSIM of the output image vs the real image.
-test_Dark_Images.py - To test the model on testing dataset.
-train_Dark_Images.py - To train the model on training dataset.
-
-Dataset can be downloaded from the link : 
-Trained Model can be downloaded from: 
-The output images and intermediate Images can be viewed at this link:
+Machine Learning CS 6375 Project - Deep Dark Light.
 
 Install the required Libraries by using the python pip command.
 Library required:
@@ -26,16 +15,6 @@ skimage.io
 skimage.measure
 math
 cv2
-
-How to Run and Compile:
-1. Download the folder and extract it to Dekstop.
-2. Download the dataset from the link provided. (Extract it in the same format and keep it inside the Canon folder only)
-3. Start the terminal instance on the folder.
-4. Start the training of the model by running the command: python train_Dark_Images.py
-The model will be trained and will be available at the checkpoint folder. (Our pretrained model can also be downloaded from the link provided above)
-5. Start the model test and prediction by running the command: python train_Dark_Images.py
-Output will be generated in 4 different folders as Dark Image(Raw Input image scaled with white balance), Scaled Image(Intermediate Output), Output Image(The predicted image from the model), Groundtruth Image(Real Image or expected output)
-6. Test the model and accuracy metrics by running the command: python accuracy_metrics.py
 
 
 References
